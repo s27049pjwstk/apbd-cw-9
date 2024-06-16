@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="2019SBD@db-mssql.pjwstk.edu.pl" uuid="baef603b-a3b2-4ebd-a64c-9e9f9df29fe1">
-      <driver-ref>sqlserver.jtds</driver-ref>
+    <data-source source="LOCAL" name="Microsoft SQL Server (JetBrains)" uuid="628349bb-12da-4f60-b606-093c99b802b2">
+      <driver-ref>sqlserver.jb</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>net.sourceforge.jtds.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:jtds:sqlserver://db-mssql.pjwstk.edu.pl/2019SBD</jdbc-url>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>com.jetbrains.jdbc.sqlserver.SqlServerDriver</jdbc-driver>
+      <jdbc-url>Data Source=db-mssql;Initial Catalog=s27049;Integrated Security=True;TrustServerCertificate=True</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
-      <driver-properties>
-        <property name="USENTLMV2" value="True" />
-        <property name="DOMAIN" value="PJWSTK" />
-      </driver-properties>
     </data-source>
   </component>
 </project>
